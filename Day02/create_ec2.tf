@@ -21,6 +21,6 @@ resource "aws_instance" "my_ec2" {  # resource block to create an EC2 instance, 
     instance_type = "t2.micro"
     key_name = "test-ec2-key.pem"
     tags = {
-        Name = "MyEC2Instance"      #
+        Name = "MyEC2Instance"      
     }
 }
