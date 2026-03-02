@@ -19,7 +19,7 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "my_ec2" {  # resource block to create an EC2 instance, with the name "my_ec2"
     ami = data.aws_ami.ubuntu.id    # The AMI ID is obtained from the data source defined above, which fetches the latest Ubuntu AMI.
     instance_type = "t2.micro"
-    key_name = "test-ec2-key.pem"
+    key_name = "test-ec2-key"
     tags = {
         Name = "MyEC2Instance"      
     }
