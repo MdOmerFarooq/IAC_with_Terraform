@@ -1,3 +1,4 @@
+
 # Ignore the bulky provider binaries in any subfolder
 **/.terraform/
 
