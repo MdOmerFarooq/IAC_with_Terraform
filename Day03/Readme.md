@@ -1,1 +1,4 @@
 **This code is to practice using modules in Terraform. We will create a module to create an EC2 instance and then use that module in our main configuration. We will also output the instance ID and public IP address of the created EC2 instance.**
+
+# Note: Make sure to write/replace the values in `terraform.tfvars` with your own values before running the Terraform commands.
+# Instance will be created in the default VPC of the region you are working in. Make sure to have a key pair created in that region
